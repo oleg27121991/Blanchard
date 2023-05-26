@@ -1,0 +1,12 @@
+.about {
+    transform: translateY(4px);
+}
+
+.title.about__title {
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.about__descr {
+    max-width: 67%;
+}

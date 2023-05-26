@@ -1,0 +1,15 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --accent-color: #9d5cd0;
+    --text-color: #333;
+    --grey-color: #666;
+
+    --select-text-color: #999;
+    --border-color: #cacaca;
+    --border-hover: #7943a4;
+    --nav-hover: #c283f3;
+    --icon-default: #ececec;
+    --icon-fill-hover: #d1a9f0;
+    --icon-stroke-hover: #9d5cd0;
+}

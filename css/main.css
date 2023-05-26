@@ -1,0 +1,130 @@
+@import 'variables.css';
+@import 'fonts.css';
+
+
+@import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/about.css';
+@import 'components/gallery.css';
+@import 'components/catalog.css';
+@import 'components/events.css';
+@import 'components/projects.css';
+@import 'components/contacts.css';
+@import 'components/footer.css';
+@import 'components/modal.css';
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: "OpenSans", sans-serif;
+    background-color: var(--white-color);
+}
+
+/* a {
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+} */
+
+.container {
+    max-width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-offset {
+    margin-bottom: 81px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 48px;    
+}
+
+.descr {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--text-color);
+}
+
+.disable-scroll {
+    position: relative;
+    overflow: hidden; 
+    height: 100vh;
+}
